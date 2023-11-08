@@ -11,32 +11,32 @@
     </div>
   <% end %>
 
-  <div>
+  <div  class="field form-group">
     <%= form.label :PID, style: "display: block" %>
-    <%= form.text_field :PID %>
+    <%= form.text_field :PID, class:"form-control"%>
   </div>
 
-  <div>
-    <%= form.label :f_name, style: "display: block" %>
-    <%= form.text_field :f_name %>
+  <div class="field form-group">
+    <%= form.label :First_Name, style: "display: block" %>
+    <%= form.text_field :f_name, class:"form-control" %>
   </div>
 
-  <div>
-    <%= form.label :l_name, style: "display: block" %>
-    <%= form.text_field :l_name %>
+  <div class="field form-group">
+    <%= form.label :Last_name, style: "display: block" %>
+    <%= form.text_field :l_name, class:"form-control" %>
   </div>
 
-  <div>
+  <div class="field form-group">
     <%= form.label :NIC, style: "display: block" %>
-    <%= form.text_field :NIC %>
+    <%= form.text_field :NIC, class:"form-control" %>
   </div>
 
-  <div>
-    <%= form.label :phone, style: "display: block" %>
-    <%= form.text_field :phone %>
+  <div class="field form-group">
+    <%= form.label :Phone, style: "display: block" %>
+    <%= form.text_field :phone, class:"form-control" %>
   </div>
-
+<br>
   <div>
-    <%= form.submit %>
+    <%= form.submit class:"btn btn-primary"%>
   </div>
 <% end %>
