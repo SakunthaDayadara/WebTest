@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  PID: MyString
+  f_name: MyString
+  l_name: MyString
+  NIC: MyString
+  phone: MyString
+
+two:
+  PID: MyString
+  f_name: MyString
+  l_name: MyString
+  NIC: MyString
+  phone: MyString
